@@ -7,18 +7,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>List of activities</h1>
-  </header>
-  <main>
-    <div class="add-task">
-      <input type="text" id="new-todo" placeholder="Add a Todo...">
-      <button id="add-button">Add</button>
-    </div>
-    <ul id="todo-list">
-      
-    </ul>
-  </main>
+  <div class="container">
+    <header>
+      <h1>List of activities</h1>
+    </header>
+    <main>
+      <div class="add-task">
+        <input type="text" id="new-todo" placeholder="Add a Todo...">
+        <button id="add-button">Add</button>
+      </div>
+      <div id="todo-container">
+        <ul id="todo-list"></ul>
+      </div>
+    </main>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
